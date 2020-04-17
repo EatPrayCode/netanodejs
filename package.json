@@ -1,12 +1,14 @@
 {
-  "name": "conduit-node",
-  "version": "1.0.0",
-  "description": "conduit on node",
+  "name": "netaconnect-backend",
+  "version": "0.3.0",
+  "description": "Node.js backend for netaconnect.com",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
-  "license": "ISC",
   "dependencies": {
     "body-parser": "1.15.0",
     "cors": "2.7.1",
@@ -30,5 +32,10 @@
   "devDependencies": {
     "newman": "^3.8.2",
     "nodemon": "^1.11.0"
-  }
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
